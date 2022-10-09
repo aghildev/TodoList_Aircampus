@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    background-color:hsl(67, 59%, 66%)
+    
+    
+    
+}
+
+.container{
+    height:95vh;
+    width:55vw;
+    background-color:antiquewhite;
+    margin:0 auto;
+    margin-top: 4rem;
+    border-radius:.75em;
+    box-shadow: rgb(38, 57, 77) 10px 30px 40px 10px;
+}
+
+header{
+    text-align:center;
+    margin-bottom: 3rem;
+    font-family: 'Silkscreen', cursive;
+    color:hsl(40, 86%, 14%);
+    font-size:1.2rem;
+    
+}
+.addition{
+    text-align:center;
+}
+
+.todo{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+.clear{
+    margin-left: 23rem;
+    padding:.7em;
+   
+}
+
+.add-task{
+    
+    outline:none;
+    font-size: inherit;
+    padding:1em 5em;
+    border:1px solid cyan;
+    
+}
+.add-task:focus{
+    border:2px solid darkcyan;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.last-todo{
+    margin-bottom:5rem;
+}
+
+.btn{
+    padding:.5em ;
+    margin-top: .25em;
+   
+}
+/*  */
+.list{
+    border:1px solid black;
+    margin:2rem;
+    padding:.85em;
+    border-radius:.65em;
+    background-color:hsla(85, 100%, 75%, 0.94);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.todo-text{
+    border: 1px solid black;
+    margin:0 auto;
+    padding:.55em;
+    background-color:hsl(85, 100%, 56%);
+    color:rgb(20, 13, 13);
+    margin-top: .75em;
+    font-size:1.2rem;
+    font-weight:bold;
+    border-radius: .6em;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.edit,.delete{
+    margin-right:.5rem;
+}
+
+
+.add{
+    outline:none;
+    background-color:darkcyan;
+    color:white;
+    border-radius: .6em;
+    font-size: inherit;
+    border:1px solid cyan;
+    cursor:pointer;
+}
+.add:hover,.add:focus{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color:white;
+    background-color: rgb(6, 199, 199);
+    font-size:1.1rem;
+
+}
+
+.edit{
+    outline:none;
+    background-color:rgb(139, 0, 139);
+    color:white;
+    border-radius: .6em;
+    /* font-size: inherit; */
+    border:1px solid cyan;
+    cursor:pointer;
+}
+.edit:focus,.edit:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color:white;
+    background-color: rgba(173, 6, 199, 0.816);
+    /* font-size:1.1rem; */
+}
+.delete{
+    outline:none;
+    background-color:rgb(139, 0, 5);
+    color:white;
+    border-radius: .6em;
+    /* font-size: inherit; */
+    border:1px solid cyan;
+    cursor:pointer;
+}
+.delete:focus,.delete:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color:white;
+    background-color: rgba(199, 6, 25, 0.794);
+    /* font-size:1.1rem; */
+}
+.clear{
+    outline:none;
+    background-color:rgb(139, 104, 0);
+    color:white;
+    border-radius: .6em;
+    font-size: inherit;
+    border:1px solid rgb(255, 89, 0);
+    cursor:pointer;
+}
+.clear:focus,.clear:hover{
+    color:wheat;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color:rgb(72, 55, 1);
+}
